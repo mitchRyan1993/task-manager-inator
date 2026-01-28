@@ -1,22 +1,16 @@
-# Task Manager-Inator (TMI)
+# Task Manager-inator (TMI)
 A cloud-based task management system using Angular (TypeScript), REST API (C#), and relational database architecture (SQL).
 
-## Overview
-## System Architecture
-## Wireframes
-## User Stories
-## Use Cases
-## Use Case Diagram
 ---
 
 # Overview
 
 The project selected for this assignment is a task management application. This project aligns with the intended goal of developing a cloud-based application with a user interface (UI) for frontend interaction, a RESTful API for communication between system layers, and a database for storing persistent data. The application, named The Task Manager-inator (TMI), will be developed following the Software Development Lifecycle (SDLC) as closely as possible.
-TMI is designed as a modern, scalable web application that emphasizes usability, organization, and secure data handling. The system will support both individual users and organizational teams, providing role-based access to tasks, administrative features, and reporting functionality.
+TMI is designed as a scalable web application that emphasizes usability, organization, and secure data handling. The system will support both individual users and organizational teams, providing role-based access to tasks, administrative features, and reporting functionality.
 
 ### Purpose
 
-The purpose of this software is to provide users with a centralized platform for managing and tracking tasks associated with an individual user profile. Each user will be able to create an account that tracks current, past, and upcoming tasks. Users will have the ability to create, edit, and delete their own tasks and will only be able to view or interact with tasks associated with their profile or an organization to which they are linked.
+The purpose of this software is to provide users with a platform for managing and tracking tasks associated with an individual user profile. Each user will be able to create an account that tracks current, past, and upcoming tasks. Users will have the ability to create, edit, and delete their own tasks and will only be able to view or interact with tasks associated with their profile or an organization to which they are linked.
 In addition, the system will support optional notification features, such as automated email or in-application reminders, to alert users of approaching deadlines or pending tasks. The overall design goal is to provide a simple, functional, and organized task management system. The target audience for this application includes individual users and small teams or organizations.
 
 ### High-Level Functionality
@@ -62,5 +56,9 @@ Core functionality development will begin with the frontend user interface, foll
 
 The Task Manager-inator project is designed to emphasize clarity, organization, and functionality. Strong consideration will be given to data validation and security, particularly in handling user authentication and role-based access control. This project aligns with the goals of the assignment and demonstrates practical application of SDLC principles through systematic planning, design, development, and testing.
 
+---
 
+# System Architecture
+![alt text](https://github.com/mitchRyan1993/task-manager-inator/sald.png "Solution Architecture Diagram")
+This project follows a layered architecture pattern separating presentation, logic, and data. The frontend Angular application communicates with a secure REST API, which handles authentication, validation, and business rules. The API interacts with a relational database to maintain user, task, and project data.
 ## Functional Requirements
