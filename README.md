@@ -59,6 +59,6 @@ The Task Manager-inator project is designed to emphasize clarity, organization, 
 ---
 
 # System Architecture
-![alt text](https://github.com/mitchRyan1993/task-manager-inator/sald.png "Solution Architecture Diagram")
+![alt text](sald.png "Solution Architecture Diagram")
 This project follows a layered architecture pattern separating presentation, logic, and data. The frontend Angular application communicates with a secure REST API, which handles authentication, validation, and business rules. The API interacts with a relational database to maintain user, task, and project data.
 ## Functional Requirements
