@@ -65,7 +65,7 @@ This project follows a layered architecture pattern separating presentation, log
 
 ---
 
-## Wireframe
+## Wireframe (DRAFT)
 
 ![alt text](tmiWireframe.png "Wireframe Diagram")
 
