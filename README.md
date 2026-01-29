@@ -3,7 +3,7 @@ A cloud-based task management system using Angular (TypeScript), REST API (C#), 
 
 ---
 
-# Overview
+## Overview
 
 The project selected for this assignment is a task management application. This project aligns with the intended goal of developing a cloud-based application with a user interface (UI) for frontend interaction, a RESTful API for communication between system layers, and a database for storing persistent data. The application, named The Task Manager-inator (TMI), will be developed following the Software Development Lifecycle (SDLC) as closely as possible.
 TMI is designed as a scalable web application that emphasizes usability, organization, and secure data handling. The system will support both individual users and organizational teams, providing role-based access to tasks, administrative features, and reporting functionality.
@@ -58,7 +58,85 @@ The Task Manager-inator project is designed to emphasize clarity, organization, 
 
 ---
 
-# System Architecture
+## System Architecture
 ![alt text](sald.png "Solution Architecture Diagram")
+
 This project follows a layered architecture pattern separating presentation, logic, and data. The frontend Angular application communicates with a secure REST API, which handles authentication, validation, and business rules. The API interacts with a relational database to maintain user, task, and project data.
-## Functional Requirements
+
+---
+
+## Wireframe
+
+![alt text](tmiWireframe.png "Wireframe Diagram")
+
+This wireframe illustrates the conceptual layout of the task manager application and workflow.
+
+---
+
+## User Stories
+
+1. As a user, I want to create an account so that I can securely access my tasks from anywhere.
+2. As a user, I want to log into my account so that I can manage and view my tasks.
+3. As a user, I want to create new tasks so that I can keep track of work that needs to be completed.
+4. As a user, I want to edit existing tasks so that I can update details when they change.
+5. As a user, I want to delete tasks so that I can remove them when they are complete or no longer needed.
+6. As a user, I want to receive reminders so that I am aware of upcoming deadlines.
+
+---
+
+## Use Cases
+
+### UC-1: Register User
+Allows the user to create an account. User must not be logged in.
+1. User visits homepage
+2. User enters credentials
+3. User presses register
+4. System validates input
+5. System stores user data in database
+6. System confirms registration
+7. User is sent to dashboard
+
+### UC-2: Login
+Allows the user to login to their account. User must not be logged in.
+1. User visits homepage
+2. User enters credentials
+3. User presses login
+4. System validates input
+5. User is sent to dashboard
+
+### UC-3: View Tasks
+Allows the user to view tasks associated with them. The user must be logged in.
+1. User is on dashboard
+2. User selects task list
+3. System directs user to task list page
+4. System retrieves data from database
+5. System displays data to user
+
+### UC-4: Create Task
+Allows the user to create a new task associated with their account. The user must be logged in.
+1. User is on dashboard
+2. User selects create task
+3. System displays task creation form
+4. User enters task details
+5. User submits form
+6. System validates input
+7. System saves task to database
+8. System confirms successful save
+9. System directs user to task list
+
+### UC-5: Delete task
+Allows the user to delete tasks. The user must be logged in and own the task.
+1. User is on task list
+2. User selects delete
+3. System requests confirmation
+4. User confirms delete
+5. System removes task from database
+6. System refreshes task list
+
+---
+
+### Use Case Diagram (UML)
+
+![alt text](tmiUseCase.png "Use Case Diagram (UML)")
+
+The Use Case Diagram describes the use cases for users and administrators.
