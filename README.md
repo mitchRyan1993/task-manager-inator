@@ -2,6 +2,18 @@
 A cloud-based task management system using Angular (TypeScript), REST API (C#), and relational database architecture (SQL).
 
 ---
+---
+## Table of Contents
+---
+- Project Overview
+- System Architecture
+- Wireframe (DRAFT)
+- User Stories
+- Use Cases
+- Use Case Diagram (UML)
+- Requirements Table
+---
+---
 
 ## Overview
 
@@ -58,12 +70,14 @@ The Task Manager-inator project is designed to emphasize clarity, organization, 
 
 ---
 
+
 ## System Architecture
 ![alt text](sald.png "Solution Architecture Diagram")
 
 This project follows a layered architecture pattern separating presentation, logic, and data. The frontend Angular application communicates with a secure REST API, which handles authentication, validation, and business rules. The API interacts with a relational database to maintain user, task, and project data.
 
 ---
+
 
 ## Wireframe (DRAFT)
 
@@ -72,6 +86,7 @@ This project follows a layered architecture pattern separating presentation, log
 This wireframe illustrates the conceptual layout of the task manager application and workflow.
 
 ---
+
 
 ## User Stories
 
@@ -83,6 +98,7 @@ This wireframe illustrates the conceptual layout of the task manager application
 6. As a user, I want to receive reminders so that I am aware of upcoming deadlines.
 
 ---
+
 
 ## Use Cases
 
@@ -135,8 +151,21 @@ Allows the user to delete tasks. The user must be logged in and own the task.
 
 ---
 
-### Use Case Diagram (UML)
+
+## Use Case Diagram (UML)
 
 ![alt text](tmiUseCase.png "Use Case Diagram (UML)")
 
 The Use Case Diagram describes the use cases for users and administrators.
+
+---
+
+
+## Requirements Table
+| Requirement ID| Requirement   |
+|:-------------:|:-------------:|
+| 1             | Req 1 |
+| 2             | Req 2 |
+| 3             | Req 3 |
+| 4             | Req 4 |
+| 5             | Req 5 |
