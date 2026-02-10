@@ -2,9 +2,7 @@
 A cloud-based task management system using Angular (TypeScript), REST API (C#), and relational database architecture (SQL).
 
 ---
----
 ## Table of Contents
----
 - Project Overview
 - System Architecture
 - Wireframe (DRAFT)
@@ -13,7 +11,7 @@ A cloud-based task management system using Angular (TypeScript), REST API (C#), 
 - Use Case Diagram (UML)
 - Requirements Table
 ---
----
+
 
 ## Overview
 
@@ -164,8 +162,10 @@ The Use Case Diagram describes the use cases for users and administrators.
 ## Requirements Table
 | Requirement ID| Requirement   |
 |:-------------:|:-------------:|
-| 1             | Req 1 |
-| 2             | Req 2 |
-| 3             | Req 3 |
-| 4             | Req 4 |
-| 5             | Req 5 |
+| 1             | The application shall allow users to create a user account using unique login credentials.     |
+| 2             | The application shall authenticate users and allow access to the system upon successful login. |
+| 3             | The application shall allow users to create new tasks with a title, description, and due date. |
+| 4             | The application shall allow users to view a list of their active and completed tasks.          |
+| 5             | The application shall allow users to edit existing tasks they own.                             |
+| 6             | The application shall allow users to delete tasks they own.                                    |
+| 7             | The application shall provide task deadline reminders through system notifications.            |
