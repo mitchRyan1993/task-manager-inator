@@ -10,6 +10,7 @@ A cloud-based task management system using Angular (TypeScript), REST API (C#), 
 - Use Cases
 - Use Case Diagram (UML)
 - Entity Relationship Diagram (ERD)
+- UML Class Diagram
 - Requirements Table
 ---
 
@@ -177,7 +178,14 @@ The Use Case Diagram describes the use cases for users and administrators.
 ## Entity Relationship Diagram (ERD)
 ![alt text](tmiERD.png "Entity Relationship Diagram (ERD)")
 
-The Entitry Relationship Diagram describes the relationship between entities in data management.
+The Entity Relationship Diagram describes the relationship between entities in data management.
+
+---
+
+### UML Class Diagram
+![alt text](tmiClassUML.png "UML Class Diagram")
+
+The UML Class Diagram shows the class structure of the entities and their dependencies.
 
 ---
 
