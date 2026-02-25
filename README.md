@@ -9,6 +9,7 @@ A cloud-based task management system using Angular (TypeScript), REST API (C#), 
 - User Stories
 - Use Cases
 - Use Case Diagram (UML)
+- Entity Relationship Diagram (ERD)
 - Requirements Table
 ---
 
@@ -94,7 +95,12 @@ This wireframe illustrates the conceptual layout of the task manager application
 4. As a user, I want to edit existing tasks so that I can update details when they change.
 5. As a user, I want to delete tasks so that I can remove them when they are complete or no longer needed.
 6. As a user, I want to receive reminders so that I am aware of upcoming deadlines.
-
+7. As a user, I want to enter and update a tasks status.
+8. As an administrator, I want to view all users so that I can manage system access.
+9. As an administrator, I want to modify user roles so that permissions are properly enforced.
+10. As an administrator, I want to deactivate user accounts so that inactive users cannot access the system.
+11. As an administrator, I want to view all tasks across organizations so that I can monitor system activity.
+     
 ---
 
 
@@ -147,6 +153,16 @@ Allows the user to delete tasks. The user must be logged in and own the task.
 5. System removes task from database
 6. System refreshes task list
 
+### UC-6: Edit task
+Allows the user to edit a task. The user must be logged in and own the task.
+1. User is on task list
+2. User selects the task
+3. System displays task information
+4. User updates task information
+5. User confirms changes
+6. System updates task information in database
+7. System refreshes task list
+
 ---
 
 
@@ -158,14 +174,23 @@ The Use Case Diagram describes the use cases for users and administrators.
 
 ---
 
+## Entity Relationship Diagram (ERD)
+![alt text](tmiERD.png "Entity Relationship Diagram (ERD)")
+
+The Entitry Relationship Diagram describes the relationship between entities in data management.
+
+---
+
 
 ## Requirements Table
 | Requirement ID| Requirement   |
 |:-------------:|:-------------:|
-| 1             | The application shall allow users to create a user account using unique login credentials.     |
-| 2             | The application shall authenticate users and allow access to the system upon successful login. |
-| 3             | The application shall allow users to create new tasks with a title, description, and due date. |
-| 4             | The application shall allow users to view a list of their active and completed tasks.          |
-| 5             | The application shall allow users to edit existing tasks they own.                             |
-| 6             | The application shall allow users to delete tasks they own.                                    |
-| 7             | The application shall provide task deadline reminders through system notifications.            |
+| 1             | The application shall allow users to create a user account using unique login credentials.          |
+| 2             | The application shall authenticate users and allow access to the system upon successful login.      |
+| 3             | The application shall allow users to create new tasks with a title, description, and due date.      |
+| 4             | The application shall allow users to view a list of their active and completed tasks.               |
+| 5             | The application shall allow users to edit existing tasks they own.                                  |
+| 6             | The application shall allow users to delete tasks they own.                                         |
+| 7             | The application shall provide task deadline reminders through system notifications.                 |
+| 8             | The application shall allow tasks to be assigned a priority level to determine level of importance. |
+| 9             | The application shall allow group members to manage and update tasks if they belong to that group.  |
