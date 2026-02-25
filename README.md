@@ -3,15 +3,15 @@ A cloud-based task management system using Angular (TypeScript), REST API (C#), 
 
 ---
 ## Table of Contents
-- Project Overview
-- System Architecture
-- Wireframe (DRAFT)
-- User Stories
-- Use Cases
-- Use Case Diagram (UML)
-- Entity Relationship Diagram (ERD)
-- UML Class Diagram
-- Requirements Table
+- [Project Overview](https://github.com/mitchRyan1993/task-manager-inator#overview)
+- [System Architecture](https://github.com/mitchRyan1993/task-manager-inator#system-architecture)
+- [Wireframe (DRAFT)](https://github.com/mitchRyan1993/task-manager-inator#wireframe-draft)
+- [User Stories](https://github.com/mitchRyan1993/task-manager-inator#user-stories)
+- [Use Cases](https://github.com/mitchRyan1993/task-manager-inator#use-cases)
+- [Use Case Diagram (UML)](https://github.com/mitchRyan1993/task-manager-inator#use-case-diagram-uml)
+- [Entity Relationship Diagram (ERD)](https://github.com/mitchRyan1993/task-manager-inator#entity-relationship-diagram-erd)
+- [UML Class Diagram](https://github.com/mitchRyan1993/task-manager-inator#uml-class-diagram)
+- [Requirements Table](https://github.com/mitchRyan1993/task-manager-inator#requirements-table)
 ---
 
 
