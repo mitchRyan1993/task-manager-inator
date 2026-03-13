@@ -4,7 +4,7 @@ This document serves to describe the functionality of the prototype. The functio
 ---
 
 ##Image 1
-![alt text](prototype/step1.png "Prototype Home Screen")
+![alt text](step1.png "Prototype Home Screen")
 
 ###Image 1 displays the home screen. This is a placeholder dashboard that resembles what the user will see when they have logged in or registered with the application.
 
@@ -33,3 +33,4 @@ This document serves to describe the functionality of the prototype. The functio
 ---
 
 This concludes the protype demonstration of User Story Case 3.
+
