@@ -12,7 +12,7 @@ A cloud-based task management system using Angular (TypeScript), REST API (C#), 
 - [Entity Relationship Diagram (ERD)](https://github.com/mitchRyan1993/task-manager-inator#entity-relationship-diagram-erd)
 - [UML Class Diagram](https://github.com/mitchRyan1993/task-manager-inator#uml-class-diagram)
 - [Requirements Table](https://github.com/mitchRyan1993/task-manager-inator#requirements-table)
-- [Data Access Layer](https://github.com/mitchRyan1993/task-manager-inator#data-access-later)
+- [Data Access Layer](https://github.com/mitchRyan1993/task-manager-inator?tab=readme-ov-file#data-access-layer)
 ---
 
 
