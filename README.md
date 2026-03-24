@@ -12,6 +12,7 @@ A cloud-based task management system using Angular (TypeScript), REST API (C#), 
 - [Entity Relationship Diagram (ERD)](https://github.com/mitchRyan1993/task-manager-inator#entity-relationship-diagram-erd)
 - [UML Class Diagram](https://github.com/mitchRyan1993/task-manager-inator#uml-class-diagram)
 - [Requirements Table](https://github.com/mitchRyan1993/task-manager-inator#requirements-table)
+- [Data Access Layer](https://github.com/mitchRyan1993/task-manager-inator#data-access-later)
 ---
 
 
@@ -202,3 +203,19 @@ The UML Class Diagram shows the class structure of the entities and their depend
 | 7             | The application shall provide task deadline reminders through system notifications.                 |
 | 8             | The application shall allow tasks to be assigned a priority level to determine level of importance. |
 | 9             | The application shall allow group members to manage and update tasks if they belong to that group.  |
+
+---
+
+## Data Access Layer
+
+![alt text](ClassModel/classModelCode.png "Class Model Code")
+
+The class model code shows the model structure for the data layer.
+
+![alt text](ClassModel/swaggerGetTask.png "Swagger API GET Task")
+
+Swagger can be used to access the API. The user can make a GET request using the interface.
+
+![alt text](ClassModel/swaggerGetTaskResponse.png "Swagger API Response")
+
+The response shows the Response Code of 200 indicating a successful response, and the response body with the data from the database.
