@@ -1,0 +1,74 @@
+.homeHub {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  gap: 1%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+  width: 19%;
+}
+
+.homeSummary {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: right;
+}
+
+.greeting {
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: right;
+  gap: 15px;
+  margin-right: 5%;
+  height: 30px;
+  width: 30%;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 100%;
+  padding: 20px;
+  clear: both;
+
+}
+
+.createButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.createButton:hover {
+  background-color: limegreen;
+  color: black;
+}
+
+.viewButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.viewButton:hover {
+  background-color: deepskyblue;
+  color: black;
+}

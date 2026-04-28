@@ -1,0 +1,29 @@
+<div class="taskListView">
+  <div class="filterBar">
+    <button (click)="showAll()" class="filterButtons">All</button>
+    <button (click)="filterStatus('Pending')" class="filterButtons">Pending</button>
+    <button (click)="filterStatus('Completed')" class="filterButtons">Completed</button>
+  </div>
+  <ul class="taskList">
+    <li *ngFor="let task of tasks$ | async" [ngClass]="task.priority.toLowerCase()">
+      <span class="taskItems">
+        <strong>{{ task.title }}</strong> <br />
+        - Due: {{ task.dueDate | date:'shortDate' }} <br />
+        - Priority: {{ task.priority }}
+      </span>
+      <span class="taskListButtons">
+        <button (click)="toggleComplete(task)" class="actionButtons taskButtons"
+                [ngClass]="{ 'Completed': task.isComplete, 'NotCompleted': !task.isComplete }">
+        {{ task.isComplete ? 'Complete' : 'Not Done'}}</button>
+        <button class="actionButtons editButtons taskButtons" (click)="editTask(task.id)">Edit</button>
+        <button class="actionButtons deleteButtons taskButtons" (click)="deleteTask(task.id)">Delete</button>
+      </span>
+      <br />
+      <hr />
+    </li>
+  </ul>
+  <br />
+  <button class="actionButtons taskButtons navButtons" routerLink="/">Home</button>
+  <button class="actionButtons taskButtons navButtons" routerLink="/tasks/create">Create Task</button>
+  <br />
+</div>

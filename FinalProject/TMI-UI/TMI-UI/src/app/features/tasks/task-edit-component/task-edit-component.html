@@ -1,0 +1,62 @@
+<h2>Update Task</h2>
+
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+
+  <div class="form-group">
+    <label class="controlLabel">Title</label>
+    <input type="text" class="inputControl" formControlName="title" />
+
+    <div *ngIf="taskForm.get('title')?.touched && taskForm.get('title')?.invalid">
+      <small class="errors" *ngIf="taskForm.get('title')?.errors?.['required']">
+        Title is required.
+      </small>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="controlLabel">Description</label>
+    <textarea class="inputControl" formControlName="description"></textarea>
+
+    <div *ngIf="taskForm.get('description')?.touched && taskForm.get('description')?.invalid">
+      <small class="errors" *ngIf="taskForm.get('description')?.errors?.['required']">
+        Description is required.
+      </small>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="controlLabel">Status</label>
+    <select formControlName="status" class="inputControl">
+      <option *ngFor="let status of statuses" [value]="status">
+        {{ status }}
+      </option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label class="controlLabel">Priority</label>
+    <select formControlName="priority" class="inputControl">
+      <option *ngFor="let priority of priorities" [value]="priority">
+        {{ priority }}
+      </option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label class="controlLabel">Due Date</label>
+    <input type="date" formControlName="dueDate" class="inputControl" />
+
+    <div *ngIf="taskForm.get('dueDate')?.touched && taskForm.get('dueDate')?.invalid">
+      <small class="errors" *ngIf="taskForm.get('dueDate')?.errors?.['required']">
+        Due Date is required.
+      </small>
+    </div>
+  </div>
+
+  <button type="submit" class="actionButtons" [disabled]="taskForm.invalid">
+    Update Task
+  </button>
+
+  <button type="button" class="actionButtons" (click)="cancel()">Cancel</button>
+
+</form>

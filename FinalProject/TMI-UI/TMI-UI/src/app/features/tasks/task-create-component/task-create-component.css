@@ -1,0 +1,38 @@
+h2 {
+    margin-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 75%;
+  margin: 10px auto;
+  background-color: #f0f0f0;
+  padding: 20px 20px 10px 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.inputControl {
+  display: flex;
+  width: 60%;
+  padding: 2px;
+}
+
+.controlLabel {
+  display: flex;
+  min-width: 19%;
+  text-align: right;
+  margin: 15px 20px 0 0;
+}
+
+.actionButtons{
+    margin-left: 80%;
+}
+
+.errors {
+  color: red;
+  font-size: 0.8em;
+}

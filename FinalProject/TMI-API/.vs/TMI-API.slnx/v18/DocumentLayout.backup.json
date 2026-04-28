@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|c:\\users\\mitch\\source\\repos\\tmi-api\\tmi-api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|solutionrelative:tmi-api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|c:\\users\\mitch\\source\\repos\\tmi-api\\tmi-api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|solutionrelative:tmi-api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|c:\\users\\mitch\\source\\repos\\tmi-api\\tmi-api\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|solutionrelative:tmi-api\\models\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|c:\\users\\mitch\\source\\repos\\tmi-api\\tmi-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|solutionrelative:tmi-api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|c:\\users\\mitch\\source\\repos\\tmi-api\\tmi-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8267CEE5-3368-BEBA-9180-6A9CFC99D484}|TMI-API\\TMI-API.csproj|solutionrelative:tmi-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Program.cs",
+              "RelativeDocumentMoniker": "TMI-API\\Program.cs",
+              "ToolTip": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Program.cs",
+              "RelativeToolTip": "TMI-API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:27:09.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TMI-API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Models\\User.cs",
+              "RelativeToolTip": "TMI-API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:31:30.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Models\\Organization.cs",
+              "RelativeDocumentMoniker": "TMI-API\\Models\\Organization.cs",
+              "ToolTip": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Models\\Organization.cs",
+              "RelativeToolTip": "TMI-API\\Models\\Organization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:31:29.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TMI-API\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Models\\TaskItem.cs",
+              "RelativeToolTip": "TMI-API\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:07:50.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TMI-API\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\Mitch\\source\\repos\\TMI-API\\TMI-API\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TMI-API\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:07:14.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

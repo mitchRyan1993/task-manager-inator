@@ -1,0 +1,102 @@
+.low {
+  color: green;
+}
+
+.medium {
+  color: orange;
+}
+
+.high {
+  color: red;
+}
+
+.critical {
+  color: purple;
+}
+
+.taskList {
+  margin: 10px 0 0 5%;
+  width: 100%;
+}
+
+.filterBar {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 0 4%;
+}
+
+.filterButtons {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  min-width: 100px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+}
+
+  .filterButtons:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+.taskListView {
+  width: 90%;
+}
+
+.taskListButtons {
+  width: 30%;
+  display: flex;
+}
+
+.Completed {
+  background-color: lightgreen;
+}
+
+  .Completed:hover {
+    background-color: limegreen;
+    color: black;
+    cursor: pointer;
+  }
+
+.NotCompleted {
+  background-color: lightpink;
+}
+
+  .NotCompleted:hover {
+    background-color: lightcoral;
+    color: black;
+    cursor: pointer;
+  }
+
+.editButtons {
+  background-color: lightblue;
+  margin-left: 10% !important;
+}
+
+  .editButtons:hover {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+  }
+
+.deleteButtons {
+  background-color: firebrick;
+  color: white;
+  margin-left: 50% !important;
+}
+
+  .deleteButtons:hover {
+    background-color: black;
+    color: red;
+    cursor: pointer;
+  }
+
+.taskButtons {
+  margin-left: 2%;
+  margin-top: 10px;
+}
+
+.taskItems {
+  width: 30%;
+  float: left;
+  padding-top: 10px;
+}

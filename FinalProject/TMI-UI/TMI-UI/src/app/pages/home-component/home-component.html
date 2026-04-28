@@ -1,0 +1,42 @@
+
+<div class="greeting">
+  <h2>Good {{ timeOfDay }} {{ username }}! </h2>
+  <h4 style="font-style:italic">{{ quote }}</h4>
+  <hr />
+</div>
+<div class="homeHub">
+  <div class="sidebar">
+    <p>Sidebar menu navigation coming soon!</p>
+  </div>
+  <section class="summary">
+    <h1>Task Summary</h1>
+    <p>Here you can see completed, upcoming, and total tasks for a quick review of your task load!</p>
+    <br />
+    <br />
+    <div>
+      <h2>Total Tasks:  {{ totalTasks }} </h2>
+    </div>
+    <br />
+    <div>
+      <h2>Tasks Completed:  {{ tasksCompleted }} </h2>
+    </div>
+    <br />
+    <div>
+      <ul>
+        <h2>Upcoming Deadlines:</h2>
+        <li *ngFor="let task of upcomingTasks">{{ task.title }} - {{ task.dueDate | date:'shortDate' }}</li>
+      </ul>
+    </div>
+  </section>
+
+    <div class="actions">
+      <button class="actionButtons createButton" routerLink="/tasks/create">
+        Create New Task
+      </button>
+
+      <button class="actionButtons viewButton" routerLink="/tasks">
+        View Task List
+      </button>
+
+    </div>
+</div>
